@@ -1,0 +1,36 @@
+
+
+
+
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* .nav-bar__button {
+  padding: 10px 20px;
+  margin-top: 10px;
+} */
+/* @layer base {
+  * {
+    font-family: Outfit;
+  }
+} */
+
+
+@theme {
+
+    --color-lightHover: #fcf4ff;
+    --color-darkHover: #2a004a;
+    --color-darkTheme: #11001f;
+    --font-outfit:"Outfit", sans-serif;
+    --font-ovo: "Ovo", sans-serif;
+
+
+    --shadow-black: 4px 4px #000;
+    --shadow-white: 4px 4px #fff;
+    --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr))
+}
+
+
+
+

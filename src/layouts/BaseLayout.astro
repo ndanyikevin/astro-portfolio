@@ -1,0 +1,27 @@
+---
+import "../styles/global.css";
+
+// Fonts via Google Fonts
+const outfit = 'https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap';
+const ovo = 'https://fonts.googleapis.com/css2?family=Ovo&display=swap';
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="portfolio website for ndanyikevin" />
+    <title>ndanyikevin | portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href={outfit} rel="stylesheet" />
+    <link href={ovo} rel="stylesheet" />
+</head>
+
+<body class="font-outfit font-ovo antialiased leading-6 overflow-x-hidden dark:bg-darkTheme dark:text-white">
+<slot />
+</body>
+</html>
